@@ -1,0 +1,8 @@
+pages\ReviewOrderPage.class
+pages\CheckoutAddressPage.class
+pages\ProductsPage.class
+pages\CheckoutPaymentPage.class
+pages\ProductDetailsPage.class
+pages\LoginPage.class
+pages\CartPage.class
+driver\Driver.class

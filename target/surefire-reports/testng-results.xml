@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-03T21:29:38 GMT-05:00" name="Surefire suite" finished-at="2026-03-03T21:30:18 GMT-05:00" duration-ms="39711">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@7ea37dbf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-03-03T21:29:38 GMT-05:00" name="Surefire test" finished-at="2026-03-03T21:30:18 GMT-05:00" duration-ms="39711">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@7ea37dbf]" started-at="2026-03-03T21:29:38 GMT-05:00" name="setUpClass" finished-at="2026-03-03T21:29:39 GMT-05:00" duration-ms="556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c2312fa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@7ea37dbf]" started-at="2026-03-03T21:29:39 GMT-05:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-03-03T21:30:18 GMT-05:00" duration-ms="39045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Realizar la compra completa de un producto paso a paso"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Funcionalidad de Checkout Unico"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@7ea37dbf]" started-at="2026-03-03T21:30:18 GMT-05:00" name="tearDownClass" finished-at="2026-03-03T21:30:18 GMT-05:00" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
