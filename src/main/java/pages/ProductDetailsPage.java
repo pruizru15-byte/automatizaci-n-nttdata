@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 public class ProductDetailsPage {
     private AndroidDriver driver;
     // Localizadores
-    private By addToCartBtn = AppiumBy.id("com.saucelabs.mydemoapp.android:id/cartBt");
+    private By addToCartBtn = AppiumBy.accessibilityId("Tap to add product to cart");
     private By goToCartIcon = AppiumBy.id("com.saucelabs.mydemoapp.android:id/cartIV");
 
     public ProductDetailsPage(AndroidDriver driver) {
