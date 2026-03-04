@@ -11,9 +11,18 @@ public class ProductsPage {
     }
 
     public void selectProduct(String productName) {
-        // Hacemos scroll hasta encontrar la descripcion del producto y luego hacemos click
-        driver.findElement(AppiumBy.androidUIAutomator(
-            "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().description(\"" + productName + "\"))"));
-        driver.findElement(AppiumBy.accessibilityId(productName)).click();
+        String searchName = productName.replace(" - ", " "); // "Sauce Labs Bolt T-Shirt"
+
+        try {
+            driver.findElement(AppiumBy.androidUIAutomator(
+                    "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().descriptionContains(\""
+                            + searchName + "\"))"));
+        } catch (Exception e) {
+            // Puede que ya esté visible y no necesite scroll
+        }
+
+        // Hacemos click en la imagen específica del producto
+        driver.findElement(AppiumBy.xpath("//android.widget.ImageView[contains(@content-desc, '" + searchName + "')]"))
+                .click();
     }
 }

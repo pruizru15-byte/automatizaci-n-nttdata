@@ -8,7 +8,7 @@ public class CartPage {
     private AndroidDriver driver;
     // Localizadores basados en sus instrucciones
     private By plusButton = AppiumBy.id("com.saucelabs.mydemoapp.android:id/plusIV");
-    private By checkoutBtn = AppiumBy.id("com.saucelabs.mydemoapp.android:id/cartBt");
+    private By checkoutBtn = AppiumBy.accessibilityId("Confirms products for checkout");
 
     public CartPage(AndroidDriver driver) {
         this.driver = driver;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="40.359" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="85.372" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\kaled\AppData\Local\Temp\surefire1580990424375398015\surefirebooter-20260303212937964_3.jar C:\Users\kaled\AppData\Local\Temp\surefire1580990424375398015 2026-03-03T21-29-37_724-jvmRun1 surefire-20260303212937964_1tmp surefire_0-20260303212937964_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\kaled\AppData\Local\Temp\surefire11103114883851322152\surefirebooter-20260303221225137_3.jar C:\Users\kaled\AppData\Local\Temp\surefire11103114883851322152 2026-03-03T22-12-25_013-jvmRun1 surefire-20260303221225137_1tmp surefire_0-20260303221225137_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="TestRunner"/>
     <property name="surefire.test.class.path" value="C:\appiumm\target\test-classes;C:\appiumm\target\classes;C:\Users\kaled\.m2\repository\io\appium\java-client\9.2.2\java-client-9.2.2.jar;C:\Users\kaled\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\kaled\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\kaled\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\kaled\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\kaled\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\kaled\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\kaled\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\kaled\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\kaled\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\kaled\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\kaled\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\kaled\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\kaled\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\kaled\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\kaled\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\kaled\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\kaled\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kaled\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\kaled\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\kaled\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\kaled\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\kaled\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\kaled\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\kaled\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\kaled\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kaled\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kaled\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\kaled\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\kaled\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\kaled\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\kaled\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\kaled\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\kaled\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\kaled\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\kaled\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\kaled\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\kaled\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\kaled\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\kaled\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\kaled\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\kaled\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\kaled\.m2\repository\net\bytebuddy\byte-buddy\1.14.14\byte-buddy-1.14.14.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\kaled\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\kaled\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\kaled\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\kaled\AppData\Local\Temp\surefire1580990424375398015\surefirebooter-20260303212937964_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\kaled\AppData\Local\Temp\surefire11103114883851322152\surefirebooter-20260303221225137_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -59,53 +59,288 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Realizar la compra completa de un producto paso a paso&quot;, &quot;Funcionalidad de Checkout Unico&quot;](1)" classname="runners.TestRunner" time="39.044">
+  <testcase name="runScenario[&quot;Validar carrito de compra con diferentes productos en un solo pase&quot;, &quot;Validar funcionalidad del carrito de compras&quot;](1)" classname="runners.TestRunner" time="40.399">
+    <failure message="Expected condition failed: waiting for presence of element located by: AppiumBy.accessibilityId: Tap to add product to cart (tried for 15 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: AppiumBy.accessibilityId: Tap to add product to cart (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at steps.CarritoSteps.agrego_del_siguiente_producto(CarritoSteps.java:63)
+	at ✽.agrego 2 del siguiente producto "Sauce Labs Bike Light"(file:///C:/appiumm/src/test/resources/features/carrito.feature:8)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [cc461d44-5813-49f7-b890-61beeb38ad46, findElement {using=accessibility id, value=Tap to add product to cart}]
+Capabilities {appium:app: D:\descargas\mda-2.0.2-23.apk, appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: D:\descargas\mda-2.0.2-23.apk, appWaitActivity: *, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Galaxy A16, platformName: ANDROID, uiautomator2ServerInstallTimeout: 90000}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A165M, appium:deviceName: R58XC0520XZ, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58XC0520XZ, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.8125, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:uiautomator2ServerInstallTimeout: 90000, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: cc461d44-5813-49f7-b890-61beeb38ad46
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at steps.CarritoSteps.agrego_del_siguiente_producto(CarritoSteps.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
     <system-out><![CDATA[
-Scenario: Realizar la compra completa de un producto paso a paso # src/test/resources/features/compras.feature:3
-  Given abro la aplicacion y selecciono la "Sauce Labs Backpack" # steps.CartSteps.seleccionoProducto(java.lang.String)
+Scenario: Validar carrito de compra con diferentes productos en un solo pase # src/test/resources/features/carrito.feature:3
+  Given estoy en la aplicación de SauceLabs                                  # steps.CarritoSteps.estoy_en_la_aplicacion_de_sauce_labs()
 
-    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 699706 bytes]
+    Embedding Captura de pantalla: Validar carrito de compra con diferentes productos en un solo pase [image/png 699724 bytes]
 
-  And agrego el producto al carro                                # steps.CartSteps.agregoAlCarro()
 
-    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 388707 bytes]
+    Embedding Captura de pantalla: Validar carrito de compra con diferentes productos en un solo pase [image/png 699724 bytes]
 
-  And voy al carro de compras                                    # steps.CartSteps.voyAlCarro()
+  And valido que carguen correctamente los productos en la galeria           # steps.CarritoSteps.valido_que_carguen_correctamente_los_productos_en_la_galeria()
 
-    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 388686 bytes]
+    Embedding Captura de pantalla: Validar carrito de compra con diferentes productos en un solo pase [image/png 699724 bytes]
 
-  And aumento la cantidad en uno                                 # steps.CartSteps.aumentoCantidad()
 
-    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 223207 bytes]
+    Embedding Captura de pantalla: Validar carrito de compra con diferentes productos en un solo pase [image/png 699724 bytes]
 
-  When proceso los pagos e inicio el checkout                    # steps.CartSteps.procesoLosPagos()
+  When agrego 1 del siguiente producto "Sauce Labs Backpack"                 # steps.CarritoSteps.agrego_del_siguiente_producto(java.lang.Integer,java.lang.String)
 
-    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 223618 bytes]
+    Embedding Captura de pantalla: Validar carrito de compra con diferentes productos en un solo pase [image/png 699724 bytes]
 
-  Then hago login con usuario "DEMO" y password "DEMO"           # steps.CartSteps.hagoLogin(java.lang.String,java.lang.String)
 
-    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 104860 bytes]
+    Embedding Captura de pantalla: Validar carrito de compra con diferentes productos en un solo pase [image/png 699724 bytes]
 
-  And completo los datos del formulario de direccion             # steps.CartSteps.completoDireccion()
+  And agrego 1 del siguiente producto "Sauce Labs Bolt - T-Shirt"            # steps.CarritoSteps.agrego_del_siguiente_producto(java.lang.Integer,java.lang.String)
 
-    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 115101 bytes]
+    Embedding Captura de pantalla: Validar carrito de compra con diferentes productos en un solo pase [image/png 699724 bytes]
 
-  And completo los datos del checkout de la tarjeta              # steps.CartSteps.completoCheckout()
 
-    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 229636 bytes]
+    Embedding Captura de pantalla: Validar carrito de compra con diferentes productos en un solo pase [image/png 699724 bytes]
 
-  And reviso y apruebo la orden                                  # steps.CartSteps.aprueboOrden()
+  And agrego 2 del siguiente producto "Sauce Labs Bike Light"                # steps.CarritoSteps.agrego_del_siguiente_producto(java.lang.Integer,java.lang.String)
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: AppiumBy.accessibilityId: Tap to add product to cart (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at steps.CarritoSteps.agrego_del_siguiente_producto(CarritoSteps.java:63)
+	at ✽.agrego 2 del siguiente producto "Sauce Labs Bike Light"(file:///C:/appiumm/src/test/resources/features/carrito.feature:8)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [cc461d44-5813-49f7-b890-61beeb38ad46, findElement {using=accessibility id, value=Tap to add product to cart}]
+Capabilities {appium:app: D:\descargas\mda-2.0.2-23.apk, appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: D:\descargas\mda-2.0.2-23.apk, appWaitActivity: *, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Galaxy A16, platformName: ANDROID, uiautomator2ServerInstallTimeout: 90000}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A165M, appium:deviceName: R58XC0520XZ, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R58XC0520XZ, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.8125, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:uiautomator2ServerInstallTimeout: 90000, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: cc461d44-5813-49f7-b890-61beeb38ad46
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at steps.CarritoSteps.agrego_del_siguiente_producto(CarritoSteps.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 77863 bytes]
 
-  And continuo comprando y salgo a la casita del celular         # steps.CartSteps.terminoYSalgo()
+    Embedding Captura de pantalla: Validar carrito de compra con diferentes productos en un solo pase [image/png 651585 bytes]
 
-    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 754727 bytes]
 
+    Embedding Captura de pantalla: Validar carrito de compra con diferentes productos en un solo pase [image/png 651585 bytes]
+
+  Then valido el carrito de compra actualice correctamente                   # steps.CarritoSteps.valido_el_carrito_de_compra_actualice_correctamente()
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Realizar la compra completa de un producto paso a paso&quot;, &quot;Funcionalidad de Checkout Unico&quot;](2)" classname="runners.TestRunner" time="43.922">
+    <system-out><![CDATA[
+Scenario: Realizar la compra completa de un producto paso a paso # src/test/resources/features/compras.feature:3
+  Given abro la aplicacion y selecciono la "Sauce Labs Backpack" # steps.CartSteps.seleccionoProducto(java.lang.String)
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 699724 bytes]
+
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 387933 bytes]
+
+  And agrego el producto al carro                                # steps.CartSteps.agregoAlCarro()
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 388727 bytes]
+
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 388706 bytes]
+
+  And voy al carro de compras                                    # steps.CartSteps.voyAlCarro()
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 388706 bytes]
+
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 220812 bytes]
+
+  And aumento la cantidad en uno                                 # steps.CartSteps.aumentoCantidad()
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 223221 bytes]
+
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 223221 bytes]
+
+  When proceso los pagos e inicio el checkout                    # steps.CartSteps.procesoLosPagos()
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 223632 bytes]
+
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 103176 bytes]
+
+  Then hago login con usuario "DEMO" y password "DEMO"           # steps.CartSteps.hagoLogin(java.lang.String,java.lang.String)
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 104866 bytes]
+
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 122410 bytes]
+
+  And completo los datos del formulario de direccion             # steps.CartSteps.completoDireccion()
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 135204 bytes]
+
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 135204 bytes]
+
+  And completo los datos del checkout de la tarjeta              # steps.CartSteps.completoCheckout()
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 229653 bytes]
+
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 229653 bytes]
+
+  And reviso y apruebo la orden                                  # steps.CartSteps.aprueboOrden()
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 228221 bytes]
+
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 77888 bytes]
+
+  And continuo comprando y salgo a la casita del celular         # steps.CartSteps.terminoYSalgo()
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 756070 bytes]
+
+
+    Embedding Captura de pantalla: Realizar la compra completa de un producto paso a paso [image/png 651618 bytes]
+
+]]></system-out>
   </testcase>
 </testsuite>
